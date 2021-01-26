@@ -11,7 +11,7 @@
         android:id="@+id/tvTitle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/currency_converter"
+        android:text="Currency Converter"
         android:textColor="@color/black"
         android:textSize="35sp"
         android:textStyle="bold"
@@ -23,7 +23,7 @@
         android:id="@+id/tvFrom"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/from"
+        android:text="From"
         app:layout_constraintStart_toStartOf="@+id/spFromCurrency"
         app:layout_constraintTop_toTopOf="@+id/guideline" />
 
@@ -31,7 +31,7 @@
         android:id="@+id/tvTo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/to"
+        android:text="To"
         app:layout_constraintStart_toStartOf="@+id/spToCurrency"
         app:layout_constraintTop_toTopOf="@+id/guideline" />
 
@@ -40,7 +40,7 @@
         style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:hint="@string/amount"
+        android:hint="Amount"
         android:layout_marginEnd="16dp"
         app:layout_constraintBottom_toBottomOf="@+id/spFromCurrency"
         app:layout_constraintEnd_toStartOf="@+id/spFromCurrency"
@@ -85,7 +85,7 @@
         android:id="@+id/btnConvert"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/convert"
+        android:text="Convert"
         android:layout_marginTop="16dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/spToCurrency" />
